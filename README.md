@@ -10,10 +10,10 @@ JsStorage supports storing objects and arrays as well as strings, integers, etc.
 
 ###Setup
 
-`<script src="js/js-storage.min.ks"></script>`  
+`<script src="js/js-storage.min.js"></script>`  
 
 ###Usage
-```
+```javascript
 JsStorage.get('name'); // returns: undefined
 
 JsStorage.set('name', 'Nebez');
