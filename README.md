@@ -8,6 +8,12 @@ Emptying the storage or unsetting specific keys through JsStorage's unset() and 
 
 JsStorage supports storing objects and arrays as well as strings, integers, etc.
 
+###Requirements  
+A JSON shim to support older browsers without JSON.parse()/stringify() functionality.  
+json2.js is perfect for this. You can find the project here: https://github.com/douglascrockford/JSON-js, or grab it from a CDN like this:  
+`<script src="//cdnjs.cloudflare.com/ajax/libs/json2/20130526/json2.min.js"></script>`
+
+
 ###Setup
 
 `<script src="js/js-storage.min.js"></script>`  
